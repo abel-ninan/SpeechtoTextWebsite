@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Audio Recorder</title>
+    <style>
+        #recordingStatus {
+            color: red;
+            visibility: hidden;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <button id="startRecord">Start Recording</button>
+        <button id="stopRecord" disabled>Stop Recording</button>
+        <button id="pauseRecord" disabled>Pause Recording</button>
+        <button id="resumeRecord" disabled>Resume Recording</button>
+        <button id="upload" disabled>Upload</button>
+    </div>
+    <div id="recordingStatus">Recording...</div>
+
+    <script src="script.js"></script>
+</body>
+</html> 
