@@ -8,8 +8,9 @@ This project is a simple web application for uploading audio files. It utilizes 
 Record audio directly in the browser.
 Upload audio files from the computer.
 View and play previously uploaded audio files (optional feature, not implemented in the provided code).
-Technologies Used
 
+
+### Technologies Used
 Node.js
 Express
 Multer for handling multipart/form-data
